@@ -179,6 +179,41 @@ sections:
                   -
                     - '<strong>Link:</strong>'
                     - '<a href="https://github.com/gionkunz/chartist-plugin-sketchy" target="_blank">chartist-plugin-sketchy</a>'
+
+---------------------------------------------------
+
+
+      - type: sub-section
+        data:
+          title: Missing Data Plugin
+          level: 4
+          items:
+            - type: text
+              data:
+                text: >
+                        The missing data plugin interpolates missing data ins your data structure. So if you show a chart, but your data set miss some values this plugin fixes that.
+            - type: live-example
+              data:
+                id: example-plugin-missing-data
+                classes: ct-golden-section
+                intro: >
+                         Create charts although the data set has some gaps or missing data at the beginning or end.
+            - type: table
+              data:
+                rows:
+                  -
+                    - '<strong>Author:</strong>'
+                    - Oliver Wana
+                  -
+                    - '<strong>Link:</strong>'
+                    - '<a href="http://oliveraustria.github.io/chartist-plugin-missing-data/" target="_blank">chartist-plugin-missing-data</a>'
+
+
+---------------------------------------------------
+
+
+
+
   - title: Develop a plugin
     level: 3
     items:
